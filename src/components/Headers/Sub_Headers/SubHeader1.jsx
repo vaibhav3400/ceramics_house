@@ -16,7 +16,7 @@ const SubHeader1 = () =>
 
         <Carousel id='sub-header1' fade style={{width: '100vw'}}  >
           
-              <Carousel.Item interval={1600} style={{ height: '595px'}}>
+              <Carousel.Item interval={1600} style={{ height: '530px'}}>
                   <img
                       
                       src={Img1}
@@ -28,7 +28,7 @@ const SubHeader1 = () =>
                       <p>Welcome to Ceramics House</p>
                   </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={1600} style={{height: '595px'}}>
+              <Carousel.Item interval={1600} style={{height: '530px'}}>
                   <Image
                       src={img2}
                       alt="Second slide"
@@ -39,7 +39,7 @@ const SubHeader1 = () =>
                       <p>Various different ceramics available here</p>
                   </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={1600} style={{height: '595px'}}>
+              <Carousel.Item interval={1600} style={{height: '530px'}}>
                   <img
                       className="d-block img-fluid"
                       src={img3}

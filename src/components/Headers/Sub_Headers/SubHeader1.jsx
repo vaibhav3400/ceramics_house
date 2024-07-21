@@ -22,7 +22,7 @@ const SubHeader1 = () =>
                       src={Img1}
                       alt="First slide"
                       className='img-fluid d-block'
-                      style={{filter: 'brightness(67%)'}}      
+                      style={{filter: 'brightness(67%)', width: '100%', height: '530px'}}      
                   />
                   <Carousel.Caption>
                       <p>Welcome to Ceramics House</p>
@@ -33,7 +33,7 @@ const SubHeader1 = () =>
                       src={img2}
                       alt="Second slide"
                       className='img-fluid d-block'
-                      style={{filter: 'brightness(78%)'}}
+                      style={{filter: 'brightness(78%)', width: '100%', height: '530px'}}
                   />
                   <Carousel.Caption>
                       <p>Various different ceramics available here</p>
@@ -44,7 +44,7 @@ const SubHeader1 = () =>
                       className="d-block img-fluid"
                       src={img3}
                       alt="Third slide"
-                      style={{filter: 'brightness(67%)'}} 
+                      style={{filter: 'brightness(67%)', width: '100%', height: '530px'}} 
                   />
                   <Carousel.Caption>
                       <p>Also, we provide discounts for some ceramics</p>
